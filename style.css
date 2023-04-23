@@ -1,0 +1,63 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    background-color: #7bdaf3;
+    display: flex;
+    margin: 0
+  }
+  
+  .notes {
+    height: 400px;
+    margin: 20px;
+    width: 400px;
+    background-color: #ffff;
+  }
+  
+  .notes .tools {
+    background-color:#9ec862;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .notes .tools button {
+    background-color: transparent;
+    border: none;
+    color:  #fff;
+    font-size: 1rem;
+    margin-left: .5rem;
+    font-weight: bold;
+  }
+  
+  .notes .main {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .notes .textarea {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .add {
+    background-color: #9ec862;
+    margin: 2rem auto;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 2px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
